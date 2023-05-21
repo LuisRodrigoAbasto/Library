@@ -5,6 +5,9 @@
     <Version>1.0.0</Version>
     <Authors>Luis Rodrigo Abasto</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://www.nuget.org/packages/A.XML</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
