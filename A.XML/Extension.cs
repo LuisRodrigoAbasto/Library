@@ -10,35 +10,6 @@ namespace A.XML
 {
     public static partial class Extension
     {
-        public static string ReplaceAll(this string value, string quitar, string nuevo)
-        {
-            if (!string.IsNullOrEmpty(value) && quitar != nuevo)
-            {
-                string result = value;
-                try
-                {
-                    value = value.Trim();
-                    if (!nuevo.Contains(quitar))
-                    {
-                        while (value.Contains(quitar))
-                        {
-                            value = value.Replace(quitar, nuevo);
-                        }
-                    }
-                    else value.Replace(quitar, nuevo);
-                    return value.Trim();
-                }
-                catch
-                {
-                    return result;
-                }
-            }
-            else
-            {
-                return value;
-            }
-        }
-
         public static List<T> ToList<T>(this DataTable dataTable)
         {
             List<T> list = new List<T>();

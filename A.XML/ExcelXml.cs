@@ -690,7 +690,35 @@ namespace A.XML
         }
         
         */
-        private class ExcelTabla
+        internal static string ReplaceAll(this string value, string quitar, string nuevo)
+        {
+            if (!string.IsNullOrEmpty(value) && quitar != nuevo)
+            {
+                string result = value;
+                try
+                {
+                    value = value.Trim();
+                    if (!nuevo.Contains(quitar))
+                    {
+                        while (value.Contains(quitar))
+                        {
+                            value = value.Replace(quitar, nuevo);
+                        }
+                    }
+                    else value.Replace(quitar, nuevo);
+                    return value.Trim();
+                }
+                catch
+                {
+                    return result;
+                }
+            }
+            else
+            {
+                return value;
+            }
+        }
+        internal class ExcelTabla
         {
             public int id { get; set; }
             public string celda { get; set; }
