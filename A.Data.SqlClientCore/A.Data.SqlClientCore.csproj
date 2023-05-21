@@ -7,7 +7,7 @@
     <Authors>Luis Rodrigo Abasto</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://www.nuget.org/packages/A.Data.SqlClientCore</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library</RepositoryUrl>
+    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library/tree/main/A.Data.SqlClientCore</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

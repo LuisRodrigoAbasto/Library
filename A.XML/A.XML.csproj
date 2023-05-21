@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -7,7 +7,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://www.nuget.org/packages/A.XML</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library</RepositoryUrl>
+    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library/tree/main/A.XML</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

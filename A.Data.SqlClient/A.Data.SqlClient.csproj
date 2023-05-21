@@ -6,7 +6,7 @@
     <Version>1.0.0</Version>
     <Authors>Luis Rodrigo Abasto</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library</RepositoryUrl>
+    <RepositoryUrl>https://github.com/LuisRodrigoAbasto/Library/tree/main/A.Data.SqlClient</RepositoryUrl>
     <PackageProjectUrl>https://www.nuget.org/packages/A.Data.SqlClient</PackageProjectUrl>
   </PropertyGroup>
 
