@@ -1,11 +1,11 @@
-﻿using Abasto.Dynamic.DevExtreme;
-using Abasto.Dynamic.Model;
+﻿using A.Dynamic.Core.Paginate.DevExtreme;
+using A.Dynamic.Core.Paginate.Model;
 using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Abasto.Dynamic.Interfaces
+namespace A.Dynamic.Core.Paginate.Interfaces
 {
     public interface IPaginateExecute
     {

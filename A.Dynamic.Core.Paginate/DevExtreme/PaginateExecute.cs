@@ -1,6 +1,6 @@
-﻿using Abasto.Dynamic.Interfaces;
-using Abasto.Dynamic.Model;
-using Abasto.Dynamic.Tools;
+﻿using A.Dynamic.Core.Paginate.Interfaces;
+using A.Dynamic.Core.Paginate.Model;
+using A.Dynamic.Core.Paginate.Tools;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq.Dynamic.Core;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Abasto.Dynamic.DevExtreme
+namespace A.Dynamic.Core.Paginate.DevExtreme
 {
     public class PaginateExecute : IPaginateExecute
     {

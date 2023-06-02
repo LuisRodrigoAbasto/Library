@@ -1,9 +1,9 @@
-﻿using Abasto.Dynamic.Interfaces;
+﻿using A.Dynamic.Core.Paginate.Interfaces;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq.Dynamic.Core;
 
-namespace Abasto.Dynamic.Model
+namespace A.Dynamic.Core.Paginate.Model
 {
     public class PaginateResult : IPaginateResult
     {

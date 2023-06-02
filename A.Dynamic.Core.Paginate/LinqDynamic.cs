@@ -1,5 +1,5 @@
-using Abasto.Dynamic.Interfaces;
-using Abasto.Dynamic.Model;
+using A.Dynamic.Core.Paginate.Interfaces;
+using A.Dynamic.Core.Paginate.Model;
 using Newtonsoft.Json.Linq;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Dynamic.Core;
 using System.Threading.Tasks;
 
-namespace Abasto.Dynamic
+namespace A.Dynamic.Core.Paginate
 {
     public static class LinqDynamic
     {

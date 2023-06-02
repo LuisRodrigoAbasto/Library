@@ -1,7 +1,7 @@
-﻿using Abasto.Dynamic.Model;
+﻿using A.Dynamic.Core.Paginate.Model;
 using System.Collections.Generic;
 
-namespace Abasto.Dynamic.Interfaces
+namespace A.Dynamic.Core.Paginate.Interfaces
 {
     public interface IPaginateResult
     {

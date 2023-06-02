@@ -1,9 +1,9 @@
-﻿using Abasto.Dynamic.Model;
+﻿using A.Dynamic.Core.Paginate.Model;
 using Newtonsoft.Json.Linq;
 using System;
 using System.ComponentModel;
 
-namespace Abasto.Dynamic.Tools
+namespace A.Dynamic.Core.Paginate.Tools
 {
     public static class TypePropertyDescriptor
     {

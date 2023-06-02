@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 
-namespace Abasto.Dynamic.Model
+namespace A.Dynamic.Core.Paginate.Model
 {
     public class FilterDevExtreme : SearchFilter
     {
